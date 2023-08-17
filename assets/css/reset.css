@@ -1,0 +1,41 @@
+:root {
+  font-size: 65%;
+}
+
+*,
+*::before,
+*::after,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:focus {
+  outline: 0;
+}
+body {
+  font-weight: 500;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.6rem;
+  color: black;
+
+  -webkit-font-smoothing: antialiased;
+  
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: black;
+  -webkit-text-fill-color: black;
+}
+
+button,
+a {
+  cursor: pointer;
+}
